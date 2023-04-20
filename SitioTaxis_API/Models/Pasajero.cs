@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -13,7 +13,7 @@ namespace SitioTaxis_API.Models
         [Key]
         public int PasajeroID { get; set; }
         [Required]
-        public string Nombre { get;set; }
+        public string Nombre { get; set; }
         [Required]
         public string NumeroTelefono { get; set; }
         [Required]
@@ -21,7 +21,7 @@ namespace SitioTaxis_API.Models
         [Required]
         public string Password { get; set; }
 
+        public virtual List<Viaje> Viajes { get; set; }
+
     }
-
-
 }

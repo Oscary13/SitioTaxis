@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{396595BD-ADF2-412F-966B-E2A9181B72A0}</ProjectGuid>
+    <ProjectGuid>{079E86D0-54F5-4086-B5AB-DE767C8A9A95}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -96,11 +96,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304182249081_RelacionUnoMuchos.cs" />
-    <Compile Include="Migrations\202304182249081_RelacionUnoMuchos.designer.cs">
-      <DependentUpon>202304182249081_RelacionUnoMuchos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\AdministradorSitio.cs" />
     <Compile Include="Models\Checador.cs" />
@@ -125,11 +120,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304182249081_RelacionUnoMuchos.resx">
-      <DependentUpon>202304182249081_RelacionUnoMuchos.cs</DependentUpon>
-    </EmbeddedResource>
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -144,9 +135,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50715</DevelopmentServerPort>
+          <DevelopmentServerPort>59782</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:50715/</IISUrl>
+          <IISUrl>http://localhost:59782/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

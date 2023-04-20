@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitioTaxis_API", "SitioTaxis_API\SitioTaxis_API.csproj", "{396595BD-ADF2-412F-966B-E2A9181B72A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitioTaxis_API", "SitioTaxis_API\SitioTaxis_API.csproj", "{079E86D0-54F5-4086-B5AB-DE767C8A9A95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{396595BD-ADF2-412F-966B-E2A9181B72A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{396595BD-ADF2-412F-966B-E2A9181B72A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{396595BD-ADF2-412F-966B-E2A9181B72A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{396595BD-ADF2-412F-966B-E2A9181B72A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079E86D0-54F5-4086-B5AB-DE767C8A9A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079E86D0-54F5-4086-B5AB-DE767C8A9A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079E86D0-54F5-4086-B5AB-DE767C8A9A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079E86D0-54F5-4086-B5AB-DE767C8A9A95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4D234F97-0EC6-4468-A21E-AF93F1DB0C6C}
+		SolutionGuid = {5A292286-AAB7-4F2D-846B-7427BED96D6D}
 	EndGlobalSection
 EndGlobal

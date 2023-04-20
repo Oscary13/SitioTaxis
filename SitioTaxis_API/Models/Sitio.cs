@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -19,7 +19,7 @@ namespace SitioTaxis_API.Models
         [Required]
         public string HorarioAtencion { get; set; }
 
-        public virtual List<AdministradorSitio> AdministradorSitios { get; set; } 
+        public virtual List<AdministradorSitio> AdministradorSitios { get; set; }
         public virtual List<Checador> Checadores { get; set; }
         public virtual List<Taxi> Taxis { get; set; }
         public virtual List<Chofer> Choferes { get; set; }
