@@ -12,11 +12,9 @@ namespace SitioTaxis_API.Models
     {
         [Key]
         public int TaxiChoferID { get; set; }
-
         [ForeignKey("Taxi")]
         public int TaxiID { get; set; }
         public virtual Taxi Taxi { get; set; }
-
         [ForeignKey("Chofer")]
         public int ChoferID { get; set; }
         public virtual Chofer Chofer { get; set; }

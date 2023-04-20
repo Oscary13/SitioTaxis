@@ -69,18 +69,23 @@ namespace SitioTaxis_API.Models
 
 
 
-            modelBuilder.Entity<Viaje>()
-                .HasRequired(t => t.Pasajero)
-                .WithMany(s => s.Viajes)
-                .HasForeignKey(t => t.PasajeroID);
+            //modelBuilder.Entity<Viaje>()
+            //    .HasRequired(t => t.TaxiChofer)
+            //    .WithRequiredPrincipal(v => v.Viaje);
+
+            //modelBuilder.Entity<Viaje>()
+            //    .HasOptional(v => v.Pasajero)
+            //    .WithRequired(p => p.Viaje);
+
+            modelBuilder.Entity<Pasajero>()
+            .HasMany(p => p.Viajes)
+            .WithOptional(v => v.Pasajero)
+            .HasForeignKey(v => v.PasajeroID);
 
             modelBuilder.Entity<Viaje>()
-                .HasRequired(t => t.TaxiChofer)
-                .WithMany(s => s.Viajes)
-                .HasForeignKey(t => t.TaxiChoferID);
-
-
-
+            .HasRequired(v => v.TaxiChofer)
+            .WithMany(p => p.Viajes)
+            .HasForeignKey(v => v.TaxiChoferID);
 
 
 

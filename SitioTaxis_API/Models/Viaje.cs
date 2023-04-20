@@ -27,13 +27,14 @@ namespace SitioTaxis_API.Models
         [Required]
         public string Estatus { get; set; }
 
-        public int PasajeroID { get; set; }
+        
+        [ForeignKey("Pasajero")]
+        public int? PasajeroID { get; set; }
         public virtual Pasajero Pasajero { get; set; }
 
         [ForeignKey("TaxiChofer")]
         public int TaxiChoferID { get; set; }
         public virtual TaxiChofer TaxiChofer { get; set; }
-
 
     }
 }
