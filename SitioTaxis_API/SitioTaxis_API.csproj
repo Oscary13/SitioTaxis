@@ -96,6 +96,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305100037514_MuchoMuchos.cs" />
+    <Compile Include="Migrations\202305100037514_MuchoMuchos.designer.cs">
+      <DependentUpon>202305100037514_MuchoMuchos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="Models\AdministradorSitio.cs" />
     <Compile Include="Models\Checador.cs" />
@@ -120,7 +125,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Migrations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202305100037514_MuchoMuchos.resx">
+      <DependentUpon>202305100037514_MuchoMuchos.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

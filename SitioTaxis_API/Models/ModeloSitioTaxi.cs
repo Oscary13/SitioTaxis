@@ -54,7 +54,7 @@ namespace SitioTaxis_API.Models
 
 
             modelBuilder.Entity<TaxiChofer>()
-                .HasKey(tc => new { tc.TaxiID, tc.ChoferID });
+                .HasKey(tc => tc.TaxiChoferID);
 
             modelBuilder.Entity<TaxiChofer>()
                 .HasRequired(tc => tc.Taxi)
@@ -86,6 +86,8 @@ namespace SitioTaxis_API.Models
             .HasRequired(v => v.TaxiChofer)
             .WithMany(p => p.Viajes)
             .HasForeignKey(v => v.TaxiChoferID);
+
+
 
 
 

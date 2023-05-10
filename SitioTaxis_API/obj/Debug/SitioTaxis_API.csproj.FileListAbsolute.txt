@@ -54,3 +54,5 @@ C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\bin\roslyn\System.Buffe
 C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\bin\roslyn\System.Memory.dll
 C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\bin\roslyn\System.Numerics.Vectors.dll
 C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\obj\Debug\SitioTaxis_API.Migrations.MuchoMuchos.resources
+C:\Users\EQUIPO-2\source\repos\SitioTaxis\SitioTaxis_API\obj\Debug\SitioTaxis_API.csproj.GenerateResource.cache
